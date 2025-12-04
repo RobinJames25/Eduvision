@@ -1,0 +1,72 @@
+Way to check for packages installed in a python project.
+    pip list
+
+Packages Installed:
+1.Core FastAPI / Web-related Packages
+    fastapi (0.121.2) – High-performance web framework for building APIs with Python; built on Starlette and Pydantic.
+    starlette (0.49.3) – ASGI framework providing web routing, sessions, background tasks; FastAPI is built on this.
+    uvicorn (0.38.0) – ASGI server for running FastAPI applications.
+    uvloop (0.22.1) – High-performance event loop for asyncio; used by uvicorn for speed.
+    httpx (0.28.1) – Async-capable HTTP client for making requests.
+    httpcore (1.0.9) – Core networking layer used by httpx.
+    httptools (0.7.1) – Fast HTTP parsing library; used internally by Starlette/uvicorn.
+    websockets (15.0.1) – For WebSocket support (real-time bi-directional communication).
+    python-multipart (0.0.20) – Handles multipart/form-data (file uploads) in FastAPI.
+2.Async / Concurrency
+    aiofiles (25.1.0) – Async file handling in Python, useful for reading/writing files without blocking.
+    anyio (4.11.0) – Async concurrency library that provides unified interface for asyncio, trio, etc.
+    sniffio (1.3.1) – Detects which async library (asyncio, trio) is in use.
+    uvloop (0.22.1) – High-performance asyncio event loop replacement.
+3.Data Validation / Settings
+    pydantic (2.12.4) – Data validation and settings management using Python type hints.
+    pydantic_core (2.41.5) – Core parsing engine used by Pydantic v2 for speed.
+    pydantic-settings (2.12.0) – Adds structured configuration support to Pydantic.
+    annotated-types (0.7.0) – Extra type annotations for Pydantic models.
+    typing-inspection (0.4.2) – Helps inspect and analyze Python type hints.
+    typing_extensions (4.15.0) – Backports new Python type hints for older Python versions.
+4.File / Storage / IO
+    fsspec (2025.9.0) – Filesystem specification; abstracts local and cloud storage.
+    filelock (3.19.1) – Provides file-based locks to prevent concurrent access.
+    pdf2image (1.17.0) – Converts PDF pages to images.
+    pillow (11.3.0) – Python Imaging Library (PIL) fork for image processing.
+    pytesseract (0.3.13) – OCR tool to extract text from images using Tesseract.
+    xmltodict (1.0.2) – Converts XML to Python dictionaries.
+    PyYAML (6.0.3) – Reads and writes YAML files.
+5.Machine Learning / AI
+    torch (2.9.1+cpu) – PyTorch library for deep learning.
+    torchaudio (2.9.1+cpu) – Audio processing support for PyTorch.
+    torchvision (0.24.1+cpu) – Image processing support for PyTorch (datasets, transforms).
+    transformers (4.57.1) – Hugging Face library for NLP models (BERT, GPT, etc.).
+    huggingface-hub (0.36.0) – Interface to download and upload models to Hugging Face hub.
+    tokenizers (0.22.1) – Fast text tokenization library used in transformers.
+    safetensors (0.6.2) – Safe serialization for large model tensors.
+6.HTTP / Networking
+    requests (2.32.5) – Synchronous HTTP client for making web requests.
+    urllib3 (2.5.0) – Core HTTP client library used by requests.
+    certifi (2025.11.12) – SSL certificate bundle for verifying HTTPS requests.
+    charset-normalizer (3.4.4) – Detects and normalizes character encoding for HTTP responses.
+    idna (3.11) – Handles Internationalized Domain Names for URLs.
+    multidict (6.7.0) – Multi-value dictionary, used by HTTP clients.
+7.Utilities
+    click (8.3.1) – Command-line interface creation library.
+    Jinja2 (3.1.6) – Templating engine for generating HTML or other text formats.
+    MarkupSafe (3.0.2) – Escapes strings for safe use in HTML templates (used by Jinja2).
+    more-itertools (10.8.0) – Extra iterator tools for Python.
+    mpmath (1.3.0) – High-precision floating-point math library.
+    networkx (3.5) – Network/graph analysis library.
+    numpy (2.3.3) – Numerical computations and array handling.
+    sympy (1.14.0) – Symbolic mathematics library.
+    packaging (25.0) – Utilities for version and dependency parsing.
+    regex (2025.11.3) – Enhanced regular expressions library.
+    tqdm (4.67.1) – Progress bars for loops and tasks.
+    watchfiles (1.1.1) – Monitors files/folders for changes (used in development).
+8.Database
+    SQLAlchemy (2.0.44) – ORM for interacting with SQL databases using Python objects.
+    psycopg2-binary (2.9.11) – PostgreSQL database driver.
+9.Miscellaneous
+    python-dotenv (1.2.1) – Loads environment variables from .env files.
+    jaraco.context (6.0.1) – Context utilities for Python (used by other packages).
+    hf-xet (1.2.0) – Possibly a Hugging Face extension/tool (specific functionality depends on project).
+    wolframalpha (5.1.3) – Access Wolfram Alpha API for computational knowledge.
+    pip (25.0) – Python package installer.
+    setuptools (70.2.0) – Package building and distribution utilities.
